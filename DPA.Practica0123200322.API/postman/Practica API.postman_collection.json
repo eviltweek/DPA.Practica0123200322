@@ -1,0 +1,70 @@
+{
+	"info": {
+		"_postman_id": "a2565724-5556-4501-bb88-1c1676b68d63",
+		"name": "Practica API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "48422710",
+		"_collection_link": "https://interstellar-spaceship-7178977.postman.co/workspace/Rodrigo's-Workspace~02cb084a-e90d-4f7a-8db9-d285f1e8bf8d/collection/48422710-a2565724-5556-4501-bb88-1c1676b68d63?action=share&source=collection_link&creator=48422710"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": [
+				{
+					"name": "practica",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:5283/api/estudiante",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5283",
+							"path": [
+								"api",
+								"estudiante"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "text",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 18 Oct 2025 21:50:23 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Kestrel"
+						},
+						{
+							"key": "Transfer-Encoding",
+							"value": "chunked"
+						}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date",
+							"domain": "",
+							"path": ""
+						}
+					],
+					"body": "[\n    {\n        \"id\": 1,\n        \"paterno\": \"García\",\n        \"materno\": \"López\",\n        \"nombres\": \"Andrea Paola\",\n        \"fechaNacimiento\": \"2003-05-12\",\n        \"correo\": \"andrea.garcia@example.edu\",\n        \"carreraId\": 1,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 2,\n        \"paterno\": \"Ramos\",\n        \"materno\": \"Quispe\",\n        \"nombres\": \"Luis Alberto\",\n        \"fechaNacimiento\": \"2002-11-30\",\n        \"correo\": \"luis.ramos@example.edu\",\n        \"carreraId\": 2,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 3,\n        \"paterno\": \"Fernández\",\n        \"materno\": \"Pérez\",\n        \"nombres\": \"Carla Sofía\",\n        \"fechaNacimiento\": \"2004-02-18\",\n        \"correo\": \"carla.fernandez@example.edu\",\n        \"carreraId\": 3,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 4,\n        \"paterno\": \"Salazar\",\n        \"materno\": \"Castro\",\n        \"nombres\": \"Jorge Enrique\",\n        \"fechaNacimiento\": \"2001-07-25\",\n        \"correo\": \"jorge.salazar@example.edu\",\n        \"carreraId\": 4,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 5,\n        \"paterno\": \"Mendoza\",\n        \"materno\": \"Vargas\",\n        \"nombres\": \"Valeria Lucía\",\n        \"fechaNacimiento\": \"2003-09-09\",\n        \"correo\": \"valeria.mendoza@example.edu\",\n        \"carreraId\": 5,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 6,\n        \"paterno\": \"Chávez\",\n        \"materno\": \"Navarro\",\n        \"nombres\": \"Diego Armando\",\n        \"fechaNacimiento\": \"2000-12-01\",\n        \"correo\": \"diego.chavez@example.edu\",\n        \"carreraId\": 6,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 7,\n        \"paterno\": \"Paredes\",\n        \"materno\": \"Ríos\",\n        \"nombres\": \"Camila Antonia\",\n        \"fechaNacimiento\": \"2002-04-07\",\n        \"correo\": \"camila.paredes@example.edu\",\n        \"carreraId\": 7,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 8,\n        \"paterno\": \"Ruiz\",\n        \"materno\": \"Aguilar\",\n        \"nombres\": \"Sebastián I.\",\n        \"fechaNacimiento\": \"1999-08-19\",\n        \"correo\": \"sebastian.ruiz@example.edu\",\n        \"carreraId\": 8,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 9,\n        \"paterno\": \"Flores\",\n        \"materno\": \"Guzmán\",\n        \"nombres\": \"Lucía Mariela\",\n        \"fechaNacimiento\": \"2004-10-03\",\n        \"correo\": \"lucia.flores@example.edu\",\n        \"carreraId\": 9,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    },\n    {\n        \"id\": 10,\n        \"paterno\": \"Peña\",\n        \"materno\": \"Rojas\",\n        \"nombres\": \"Bruno Esteban\",\n        \"fechaNacimiento\": \"2001-03-16\",\n        \"correo\": \"bruno.pena@example.edu\",\n        \"carreraId\": 10,\n        \"fechaRegistro\": \"2025-10-18T20:09:04\",\n        \"carrera\": null\n    }\n]"
+				}
+			]
+		}
+	]
+}
